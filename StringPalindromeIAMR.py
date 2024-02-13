@@ -9,10 +9,19 @@ else:
 st = st.replace("a","p")
 print(st)'''
 
-st = "skill,risers.and,brain,mentors."
+'''st = "skill,risers.and,brain,mentors."
 
 st = st.replace(".","*")
 st = st.replace(",",".")
 st = st.replace("*",",")
-print(st)
+print(st)'''
 
+st = input("Enter the string..")
+
+#this is a python language
+st = st.split()
+
+st = st[::-1]
+
+st = " ".join(st)
+print(st)
